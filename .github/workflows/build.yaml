@@ -45,7 +45,7 @@ jobs:
 
     needs: build
 
-    if: github.ref_name != "main"
+    if: github.ref_name != 'main'
 
     steps:
       - name: Find Pull Request
