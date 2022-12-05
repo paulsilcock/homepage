@@ -10,7 +10,7 @@ interface Props {
 export const PostPreview: React.FC<Props> = ({ title, slug, className }) => (
   <Link href="/" className={`flex flex-col w-full md:w-56 h-36 md:h-60 rounded-xl ${className ?? ""}`}>
     <div className="p-3 m-[0.125rem] flex-1 rounded-xl bg-base-100">
-      <h4 className="text-lg font-semibold pb-4">{title}</h4>
+      <h4>{title}</h4>
       <p>{slug}</p>
     </div>
   </Link>
