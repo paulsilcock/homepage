@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/paulsilcock/homepage/compare/v1.2.0...v1.3.0) (2022-12-08)
+
+
+### Features
+
+* fix typo when triggering downstream build ([aa047f0](https://github.com/paulsilcock/homepage/commit/aa047f080e4b0b2a493fb85bafcba01ee35b7257))
+
 # [1.2.0](https://github.com/paulsilcock/homepage/compare/v1.1.0...v1.2.0) (2022-12-08)
 
 
