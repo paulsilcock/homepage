@@ -86,4 +86,4 @@ jobs:
             -H "Authorization: token ${{ secrets.APPS_RELEASE }}" \
             -H "Content-Type:application/json" \
             https://api.github.com/repos/paulsilcock/app-of-apps/actions/workflows/deploy.yaml/dispatches \
-            --data '{"ref": "main", "imputs": {"app": "homepage", "tag": "${{ steps.get-next-version.outputs.new-release-version }}", "env": "staging"} }'
+            --data '{"ref": "main", "inputs": {"app": "homepage", "tag": "${{ steps.get-next-version.outputs.new-release-version }}", "env": "staging"} }'
