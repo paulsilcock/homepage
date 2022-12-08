@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/paulsilcock/homepage/compare/v1.5.0...v1.6.0) (2022-12-08)
+
+
+### Features
+
+* corrects date in career section ([1588b55](https://github.com/paulsilcock/homepage/commit/1588b550c6ddbcaf3f6c9841cd1e07adfeaa347b))
+
 # [1.5.0](https://github.com/paulsilcock/homepage/compare/v1.4.0...v1.5.0) (2022-12-08)
 
 
