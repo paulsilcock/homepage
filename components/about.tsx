@@ -10,7 +10,7 @@ export const About: React.FC = () => (
       About Me
     </h3>
     <p>
-      I started my career at Sony in 2012 as a research engineer, designing
+      I started my career at Sony in 2010 as a research engineer, designing
       video compression algorithms for the HEVC standard before side-stepping
       into software engineering and consultancy, where I have spent the past
       decade working for clients in the Government and National Security
