@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/paulsilcock/homepage/compare/v1.3.0...v1.4.0) (2022-12-08)
+
+
+### Features
+
+* :bug: corrects image tag when deploying to staging ([001e91c](https://github.com/paulsilcock/homepage/commit/001e91c851a9651ad746b5698bf41019e1b6462d))
+
 # [1.3.0](https://github.com/paulsilcock/homepage/compare/v1.2.0...v1.3.0) (2022-12-08)
 
 
