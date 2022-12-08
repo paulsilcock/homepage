@@ -87,4 +87,3 @@ jobs:
             -H "Content-Type:application/json" \
             https://api.github.com/repos/paulsilcock/app-of-apps/actions/workflows/deploy.yaml/dispatches \
             --data '{"ref": "main", "inputs": {"app": "homepage", "tag": "${{ needs.get-next-version.outputs.version }}", "env": "staging"} }'
-          -H "Authorization: token $GH_TOKEN" \
