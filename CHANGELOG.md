@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/paulsilcock/homepage/compare/v1.1.0...v1.2.0) (2022-12-08)
+
+
+### Features
+
+* :bug: fix downstream build trigger ([d61f0ef](https://github.com/paulsilcock/homepage/commit/d61f0ef4b57f1595b4f843d7221486095cac0210))
+
 # [1.1.0](https://github.com/paulsilcock/homepage/compare/v1.0.0...v1.1.0) (2022-12-08)
 
 
