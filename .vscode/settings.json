@@ -1,0 +1,36 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "eslint.options": {
+        "extensions": [
+            ".js",
+            ".jsx",
+            ".md",
+            ".mdx",
+            ".ts",
+            ".tsx"
+        ]
+    },
+    "eslint.validate": [
+        "markdown",
+        "mdx",
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
+    "tailwindCSS.includeLanguages": {
+        "plaintext": "javascript" ,
+        "typescript": "typescript",
+        "typescriptreact": "typescript"
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/.next": true
+    },
+    "explorer.excludeGitIgnore": true
+}
