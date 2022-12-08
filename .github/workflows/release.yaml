@@ -81,8 +81,9 @@ jobs:
 
       - name: Update staging environment
         run: |
-          curl -XPOST -u "${{ secrets.APP_RELEASE }}" \
-            -H "Accept:application/vnd.github" \
+          curl -XPOST  \
+            -H "Accept:application/vnd.github+json" \
+            -H "Authorization: token ${{ secrets.APPS_RELEASE }}" \
             -H "Content-Type:application/json" \
-            https://api.github.com/repos/paulsilcock/app-of-apps/deploy.yaml/dispatches \
+            https://api.github.com/repos/paulsilcock/app-of-apps/actions/workflows/deploy.yaml/dispatches \
             --data '{"ref": "main", "imputs": {"app": "homepage", "tag": "${{ steps.get-next-version.outputs.new-release-version }}", "env": "staging"} }'
