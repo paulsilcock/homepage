@@ -49,7 +49,15 @@ jobs:
           cache-from: type=registry,ref=${{ env.IMAGE }}:buildcache
           cache-to: type=registry,ref=${{ env.IMAGE }}:buildcache,mode=max
 
-      - name: Release
+      - name: Create GitHub Release
         run: npm ci && npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.HOMEPAGE_RELEASE_TOKEN }}
+
+      - name: Update staging environment
+        run: |
+          curl -XPOST -u "${{ secrets.APP_RELEASE }}" \
+            -H "Accept:application/vnd.github" \
+            -H "Content-Type:application/json" \
+            https://api.github.com/repos/paulsilcock/app-of-apps/deploy.yaml/dispatches \
+            --data '{"ref": "main", "imputs": {"app": "homepage", "tag": "${{ steps.get-next-version.outputs.new-release-version }}", "env": "staging"} }'
