@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/paulsilcock/homepage/compare/v1.4.0...v1.5.0) (2022-12-08)
+
+
+### Features
+
+* only create release after successful deployment ([af5fc5d](https://github.com/paulsilcock/homepage/commit/af5fc5d901a048d4bb3373bbb6aed1e793135261))
+
 # [1.4.0](https://github.com/paulsilcock/homepage/compare/v1.3.0...v1.4.0) (2022-12-08)
 
 
