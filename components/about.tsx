@@ -21,7 +21,7 @@ export const About: React.FC = () => (
       building large-scale systems, leading multiple engineering teams and 
       developing long-term technical strategy.
     </p>
-    <h4>
+    <h4 className="pt-2">
       Skills & Technologies
     </h4>
     <ul>
