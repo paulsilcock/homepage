@@ -74,11 +74,6 @@ jobs:
           cache-from: type=registry,ref=${{ env.IMAGE }}:buildcache
           cache-to: type=registry,ref=${{ env.IMAGE }}:buildcache,mode=max
 
-      - name: Create GitHub Release
-        run: npm ci && npx semantic-release
-        env:
-          GITHUB_TOKEN: ${{ secrets.HOMEPAGE_RELEASE_TOKEN }}
-
       - name: Update staging environment
         run: |
           curl -XPOST  \
@@ -87,3 +82,8 @@ jobs:
             -H "Content-Type:application/json" \
             https://api.github.com/repos/paulsilcock/app-of-apps/actions/workflows/deploy.yaml/dispatches \
             --data '{"ref": "main", "inputs": {"app": "homepage", "tag": "${{ needs.get-next-version.outputs.version }}", "env": "staging"} }'
+
+      - name: Create GitHub Release
+        run: npm ci && npx semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.HOMEPAGE_RELEASE_TOKEN }}
