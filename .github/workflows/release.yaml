@@ -50,4 +50,4 @@ jobs:
       - name: Release
         run: npm ci && npx semantic-release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.HOMEPAGE_RELEASE_TOKEN }}
