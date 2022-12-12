@@ -13,7 +13,7 @@ export const Upcoming: React.FC = () => (
       <PostPreview
         title="DVC pipelines in Argo Workflows"
         slug="Automatically scale your machine learning pipelines in Kubernetes with GitHub Actions"
-        className="bg-gradient-to-br from-[#9333EA] to-[#ffdd6c]"
+        className="bg-gradient-to-tr from-[#6EE7B7] to-[#9333EA]"
       />
       <PostPreview
         title="Auto-deploy pull request changes"
@@ -23,12 +23,12 @@ export const Upcoming: React.FC = () => (
             <code> ApplicationSets</code>
           </span>
         }
-        className="bg-gradient-to-tr from-[#ffdd6c] to-[#171FFF]"
+        className="bg-gradient-to-br from-[#9333EA] to-[#ffdd6c]"
       />
       <PostPreview
         title="Agile Armageddon"
         slug="It's easier to train astronauts to be oil drillers, than to train oil drillers to be astronauts..."
-        className="bg-gradient-to-tr from-[#6EE7B7] to-[#9333EA]"
+        className="bg-gradient-to-tr from-[#ffdd6c] to-[#171FFF]"
       />
     </div>
   </>
