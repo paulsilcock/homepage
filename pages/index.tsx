@@ -1,8 +1,8 @@
-import { Layout } from '../components/layout';
 import Image from 'next/image';
-import me from '../public/static/images/me.png'
-import { Upcoming } from '../components/upcoming';
-import { About } from '../components/about';
+import { About } from '../components/index/about';
+import { Upcoming } from '../components/index/upcoming';
+import { Layout } from '../components/layout';
+import me from '../public/static/images/me.png';
 
 export default function Home() {
   return (

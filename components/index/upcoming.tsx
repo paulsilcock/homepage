@@ -1,4 +1,4 @@
-import { PostPreview } from "./post";
+import { PostPreview } from "./postpreview";
 
 export const Upcoming: React.FC = () => (
   <>
