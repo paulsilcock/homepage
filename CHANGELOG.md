@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/paulsilcock/homepage/compare/v1.7.0...v1.8.0) (2022-12-13)
+
+
+### Features
+
+* adjusts banner to recommended size ([743a176](https://github.com/paulsilcock/homepage/commit/743a17622f95f144509c96e858b258cf03b4c5a2))
+
 # [1.7.0](https://github.com/paulsilcock/homepage/compare/v1.6.0...v1.7.0) (2022-12-13)
 
 
