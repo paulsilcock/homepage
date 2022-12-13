@@ -7,9 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
-    "postinstall": "husky install"
+    "postinstall": "husky install",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "@next/font": "13.0.4",
@@ -36,18 +36,18 @@
     "@babel/core": "^7.20.5",
     "@commitlint/cli": "^17.3.0",
     "@commitlint/config-conventional": "^17.3.0",
-    "@storybook/addon-actions": "^7.0.0-alpha.59",
-    "@storybook/addon-essentials": "^7.0.0-alpha.59",
-    "@storybook/addon-interactions": "^7.0.0-alpha.59",
-    "@storybook/addon-links": "^7.0.0-alpha.59",
-    "@storybook/builder-webpack5": "^7.0.0-alpha.59",
-    "@storybook/manager-webpack5": "^7.0.0-alpha.10",
-    "@storybook/react": "^7.0.0-alpha.59",
-    "@storybook/testing-library": "^0.0.14-next.0",
+    "@storybook/addon-essentials": "^7.0.0-beta.3",
+    "@storybook/addon-interactions": "^7.0.0-beta.3",
+    "@storybook/addon-links": "^7.0.0-beta.3",
+    "@storybook/blocks": "^7.0.0-beta.3",
+    "@storybook/nextjs": "^7.0.0-beta.3",
+    "@storybook/react": "^7.0.0-beta.3",
+    "@storybook/testing-library": "^0.0.13",
     "babel-loader": "^8.3.0",
     "eslint-plugin-storybook": "^0.6.8",
     "husky": "^8.0.2",
     "semantic-release": "^19.0.5",
-    "semantic-release-export-data": "^1.0.1"
+    "semantic-release-export-data": "^1.0.1",
+    "storybook": "^7.0.0-beta.3"
   }
 }
