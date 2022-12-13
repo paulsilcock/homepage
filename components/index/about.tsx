@@ -17,16 +17,19 @@ export const About: React.FC = () => (
       sectors.
     </p>
     <p>
-      I have worked for over a dozen clients across several organisations, 
-      building large-scale systems, leading multiple engineering teams and 
+      I have worked for over a dozen clients across several organisations,
+      building large-scale systems, leading multiple engineering teams and
       developing long-term technical strategy.
     </p>
     <h4 className="pt-2">
       Skills & Technologies
     </h4>
     <ul>
-      <SkillBadge>Kubernetes</SkillBadge>
       <SkillBadge>React</SkillBadge>
+      <SkillBadge>Kubernetes</SkillBadge>
+      <SkillBadge>Docker</SkillBadge>
+      <SkillBadge>Prometheus</SkillBadge>
+      <SkillBadge>ArgoCD</SkillBadge>
       <SkillBadge>Typescript</SkillBadge>
       <SkillBadge>Python</SkillBadge>
       <SkillBadge>Terraform</SkillBadge>
