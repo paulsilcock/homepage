@@ -1,3 +1,11 @@
+# [1.7.0](https://github.com/paulsilcock/homepage/compare/v1.6.0...v1.7.0) (2022-12-13)
+
+
+### Features
+
+* tweaks blog preview borders ([95b587f](https://github.com/paulsilcock/homepage/commit/95b587f9880183af911f29f3ba7e82ab5cc6379f))
+* updates skills section ([df305c8](https://github.com/paulsilcock/homepage/commit/df305c8627214bfbd8406a141e832164f4a8fb5b))
+
 # [1.6.0](https://github.com/paulsilcock/homepage/compare/v1.5.0...v1.6.0) (2022-12-08)
 
 
